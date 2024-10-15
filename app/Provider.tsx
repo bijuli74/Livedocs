@@ -1,7 +1,7 @@
 "use client";
 
 import Loader from "@/components/Loader";
-import { getClerkUsers } from "@/lib/actions/user.action";
+import { getClerkUsers, getDocumentUsers } from "@/lib/actions/user.actions";
 import { useUser } from "@clerk/nextjs";
 import { currentUser } from "@clerk/nextjs/server";
 import {
